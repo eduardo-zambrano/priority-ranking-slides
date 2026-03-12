@@ -1,0 +1,109 @@
+/*-- scss:defaults --*/
+
+$body-bg: #0a0a0a;
+$body-color: #e8e8e8;
+$link-color: #f0c040;
+$font-family-sans-serif: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$presentation-heading-font: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$presentation-heading-color: #e8e8e8;
+$presentation-font-size-root: 32px;
+$code-color: #f0c040;
+$code-bg: transparent;
+$code-block-bg: #111;
+
+/*-- scss:rules --*/
+
+.reveal {
+  font-weight: 300;
+  letter-spacing: 0.01em;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3 {
+  font-weight: 300;
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
+.reveal h2 {
+  font-size: 1.4em;
+  margin-bottom: 0.6em;
+}
+
+.reveal p {
+  line-height: 1.5;
+}
+
+.reveal table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  font-size: 0.9em;
+}
+
+.reveal table th {
+  color: #999;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.85em;
+  border-bottom: 1px solid #444;
+  padding: 0.5em 0.8em;
+}
+
+.reveal table td {
+  padding: 0.45em 0.8em;
+  border-bottom: 1px solid #1a1a1a;
+  color: #ccc;
+}
+
+.reveal table tr:last-child td {
+  border-bottom: 1px solid #333;
+}
+
+.reveal table tbody tr:hover {
+  background-color: #151515;
+}
+
+.reveal .slide-background {
+  background-color: #0a0a0a;
+}
+
+.reveal blockquote {
+  border-left: 3px solid #f0c040;
+  padding-left: 1em;
+  color: #aaa;
+  font-style: italic;
+}
+
+.reveal code {
+  font-family: 'Source Code Pro', 'Fira Code', monospace;
+  font-size: 0.85em;
+}
+
+.reveal .columns {
+  gap: 0;
+}
+
+.reveal .mermaid svg {
+  max-width: 100%;
+}
+
+/* Clean, minimal scrollbar */
+.reveal ::-webkit-scrollbar {
+  width: 4px;
+}
+
+.reveal ::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.reveal ::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 2px;
+}
+
+/* Fade animation for fragments */
+.reveal .fragment.fade-in-then-semi-out.visible:not(.current-fragment) {
+  opacity: 0.4;
+}
