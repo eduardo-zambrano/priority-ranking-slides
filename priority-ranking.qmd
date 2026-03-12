@@ -716,7 +716,7 @@ execute:
 | [&#9632;]{style="color: #c490f0;"} | Executive screening | PMM | Only the top tier matters |
 | [&#9632;]{style="color: #c490f0;"} | Publications across journal tiers | PLS | Top tier first; among equals, next tier decides |
 | [&#9632;]{style="color: #70d0a0;"} | Fundraising across priority areas | TMM | For the bottom line, only the total matters |
-| [&#9632;]{style="color: #70d0a0;"} | Grant agency evaluation | TLS | Total first; among equals, favor top-area concentration |
+| [&#9632;]{style="color: #70d0a0;"} | Olympic medal rankings | TLS | Total medals first; among equals, favor better ones |
 | [&#9632;]{style="color: #f0a050;"} | Infection control across risk categories | P-PROT | Breadth of coverage; protect the most critical categories first |
 | [&#9632;]{style="color: #f0a050;"} | Scouting baseball prospects | Q-PROT | Depth of coverage; peak excellence matters most |
 
@@ -819,6 +819,39 @@ execute:
 [X concentrates in medicine, but Y raises more overall.]{style="font-size: 0.9em; color: #888;"}
 
 [For the bottom line, only the total matters.]{style="font-size: 0.9em; color: #888; font-style: italic;"}
+:::
+
+---
+
+## {background-color="#0a0a0a"}
+
+::: {style="text-align: center; margin-top: 3%;"}
+[TLS &mdash; Olympic medal rankings]{style="font-size: 1.3em; color: #70d0a0; font-weight: 400;"}
+:::
+
+::: {style="text-align: center; margin-top: 0.8em;"}
+[Medal tiers: &ensp; [Gold]{style="color: #70d0a0; font-weight: 500;"} $>_p$ [Silver]{style="color: #70d0a0;"} $>_p$ [Bronze]{style="color: #70d0a0;"}]{style="font-size: 1em; color: #aaa;"}
+:::
+
+::: {style="max-width: 70%; margin: 1.5em auto 0; font-size: 0.95em;"}
+
+| | Gold | Silver | Bronze | Total |
+|:---|:---:|:---:|:---:|:---:|
+| **Country A** | 2 | 3 | 1 | 6 |
+| **Country B** | 1 | 4 | 1 | 6 |
+
+:::
+
+::: {style="text-align: center; margin-top: 1.5em;"}
+[Totals tied at 6. &ensp; Prefix sums: $S(A) = (2, 5, 6)$ vs $S(B) = (1, 5, 6)$.]{style="font-size: 1em; color: #ddd;"}
+
+[First difference at $S_1$: &ensp; $2 > 1$ &ensp; &rarr; **Country A wins**]{style="font-size: 1.1em; color: #70d0a0; font-weight: 500;"}
+:::
+
+::: {style="text-align: center; margin-top: 1.2em;"}
+[Same medal count, but A has more golds.]{style="font-size: 0.9em; color: #888;"}
+
+[TLS: total medals first; among equals, favor gold concentration.]{style="font-size: 0.9em; color: #888; font-style: italic;"}
 :::
 
 ---
