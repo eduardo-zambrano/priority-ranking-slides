@@ -3,6 +3,7 @@ title: ""
 subtitle: ""
 format:
   revealjs:
+    output-file: index.html
     theme: [default, custom.scss]
     slide-number: false
     controls: false
