@@ -1,6 +1,7 @@
 ---
 title: ""
 subtitle: ""
+output-dir: docs
 format:
   revealjs:
     output-file: index.html
@@ -395,7 +396,7 @@ execute:
 
 [Q-PROT: $a^*\!=\!3$, $r^*\!=\!1 \in H_3(x)$]{style="font-size: 0.9em; color: #ddd;"}
 
-[$x$ **wins** &mdash; coverage advantage]{style="font-size: 0.9em; color: #f0a050; font-weight: 500;"}
+[$x$ **wins** &mdash; coverage breadth / peak excellence]{style="font-size: 0.9em; color: #f0a050; font-weight: 500;"}
 :::
 :::
 
