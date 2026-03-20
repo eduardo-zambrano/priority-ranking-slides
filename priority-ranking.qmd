@@ -621,7 +621,65 @@ execute:
 
 ---
 
-## {#applications background-color="#0a0a0a"}
+## {background-color="#0a0a0a"}
+
+::: {style="text-align: center; margin-top: 3%;"}
+[Six settings, six rules]{style="font-size: 1.4em; color: #e8e8e8; font-weight: 300;"}
+:::
+
+<br>
+
+::: {style="max-width: 92%; margin: 0 auto; font-size: 0.82em;"}
+
+| | **Application** | **Rule** | **Why this rule** |
+|:---|:---|:---|:---|
+| [&#9632;]{style="color: #c490f0;"} | Executive screening | PMM | Only the top tier matters |
+| [&#9632;]{style="color: #c490f0;"} | Publications across journal tiers | PLS | Top tier first; among equals, next tier decides |
+| [&#9632;]{style="color: #70d0a0;"} | Fundraising across priority areas | TMM | For the bottom line, only the total matters |
+| [&#9632;]{style="color: #70d0a0;"} | Olympic medal rankings | TLS | Total medals first; among equals, favor better ones |
+| [&#9632;]{style="color: #f0a050;"} | Infection control across risk categories | P-PROT | Breadth of coverage; protect the most critical categories first |
+| [&#9632;]{style="color: #f0a050;"} | Scouting baseball prospects | Q-PROT | Depth of coverage; peak excellence matters most |
+
+: {tbl-colwidths="[3,30,7,40]"}
+
+:::
+
+---
+
+## {background-color="#0a0a0a"}
+
+::: {style="text-align: center; margin-top: 3%;"}
+[PMM &mdash; Executive screening]{style="font-size: 1.3em; color: #c490f0; font-weight: 400;"}
+:::
+
+::: {style="text-align: center; margin-top: 0.8em;"}
+[Candidates rated on: &ensp; [Vision]{style="color: #c490f0; font-weight: 500;"} $>_p$ [Operations]{style="color: #c490f0;"} $>_p$ [Communication]{style="color: #c490f0;"}]{style="font-size: 1em; color: #aaa;"}
+:::
+
+::: {style="max-width: 70%; margin: 1.5em auto 0; font-size: 0.95em;"}
+
+| | Vision | Operations | Communication |
+|:---|:---:|:---:|:---:|
+| **Candidate A** | 9 | 3 | 2 |
+| **Candidate B** | 7 | 8 | 8 |
+
+:::
+
+::: {style="text-align: center; margin-top: 1.5em;"}
+[PMM compares only the top coordinate: &ensp; $9 > 7$]{style="font-size: 1.05em; color: #ddd;"}
+
+[&rarr; **Candidate A wins**]{style="font-size: 1.1em; color: #c490f0; font-weight: 500;"}
+:::
+
+::: {style="text-align: center; margin-top: 1.2em;"}
+[B is stronger in every other dimension &mdash; but PMM doesn't care.]{style="font-size: 0.9em; color: #888;"}
+
+[At the shortlisting stage, only strategic vision matters.]{style="font-size: 0.9em; color: #888; font-style: italic;"}
+:::
+
+---
+
+## {background-color="#0a0a0a"}
 
 ::: {style="text-align: center; margin-top: 3%;"}
 [PLS &mdash; Publications across journal tiers]{style="font-size: 1.3em; color: #c490f0; font-weight: 400;"}
@@ -650,8 +708,37 @@ execute:
 [No number of B-publications compensates for an A-publication deficit.]{style="font-size: 0.9em; color: #888; font-style: italic;"}
 :::
 
-::: {style="position: absolute; bottom: 1em; right: 1.5em;"}
-[[all six applications →](#app-applications)]{style="font-size: 0.6em; color: #555;"}
+---
+
+## {background-color="#0a0a0a"}
+
+::: {style="text-align: center; margin-top: 3%;"}
+[TMM &mdash; Fundraising across priority areas]{style="font-size: 1.3em; color: #70d0a0; font-weight: 400;"}
+:::
+
+::: {style="text-align: center; margin-top: 0.8em;"}
+[Priority areas: &ensp; [Medicine]{style="color: #70d0a0; font-weight: 500;"} $>_p$ [Engineering]{style="color: #70d0a0;"} $>_p$ [Humanities]{style="color: #70d0a0;"}]{style="font-size: 1em; color: #aaa;"}
+:::
+
+::: {style="max-width: 70%; margin: 1.5em auto 0; font-size: 0.95em;"}
+
+| | Medicine | Engineering | Humanities |
+|:---|:---:|:---:|:---:|
+| **Campaign X** | \$2M | \$0 | \$0 |
+| **Campaign Y** | \$1M | \$1M | \$1M |
+
+:::
+
+::: {style="text-align: center; margin-top: 1.5em;"}
+[TMM compares only totals: &ensp; \$3M $>$ \$2M]{style="font-size: 1.05em; color: #ddd;"}
+
+[&rarr; **Campaign Y wins**]{style="font-size: 1.1em; color: #70d0a0; font-weight: 500;"}
+:::
+
+::: {style="text-align: center; margin-top: 1.2em;"}
+[X concentrates in medicine, but Y raises more overall.]{style="font-size: 0.9em; color: #888;"}
+
+[For the bottom line, only the total matters.]{style="font-size: 0.9em; color: #888; font-style: italic;"}
 :::
 
 ---
@@ -716,6 +803,39 @@ execute:
 [B is excellent in ICU but leaves surgical and general wards unprotected.]{style="font-size: 0.9em; color: #888;"}
 
 [P-PROT demands breadth, then gives the most critical categories priority.]{style="font-size: 0.9em; color: #888; font-style: italic;"}
+:::
+
+---
+
+## {background-color="#0a0a0a"}
+
+::: {style="text-align: center; margin-top: 3%;"}
+[Q-PROT &mdash; Scouting baseball prospects]{style="font-size: 1.3em; color: #f0a050; font-weight: 400;"}
+:::
+
+::: {style="text-align: center; margin-top: 0.8em;"}
+[Skills: &ensp; [Hitting]{style="color: #f0a050; font-weight: 500;"} $>_p$ [Fielding]{style="color: #f0a050;"} $>_p$ [Speed]{style="color: #f0a050;"}]{style="font-size: 1em; color: #aaa;"}
+:::
+
+::: {style="max-width: 70%; margin: 1.5em auto 0; font-size: 0.95em;"}
+
+| | Hitting | Fielding | Speed |
+|:---|:---:|:---:|:---:|
+| **Player X** | 2 | 1 | 2 |
+| **Player Y** | 1 | 3 | 0 |
+
+:::
+
+::: {style="text-align: center; margin-top: 1.5em;"}
+[Highest differing threshold: $a^* = 3$. &ensp; $H_3(Y) = \{2\}$ vs $H_3(X) = \emptyset$.]{style="font-size: 1em; color: #ddd;"}
+
+[&rarr; **Player Y wins**]{style="font-size: 1.1em; color: #f0a050; font-weight: 500;"}
+:::
+
+::: {style="text-align: center; margin-top: 1.2em;"}
+[X is well-rounded but has no elite skill. Y has an elite glove.]{style="font-size: 0.9em; color: #888;"}
+
+[Q-PROT rewards peak excellence: the player who clears the highest bar.]{style="font-size: 0.9em; color: #888; font-style: italic;"}
 :::
 
 ---
@@ -1055,134 +1175,6 @@ execute:
 
 ::: {style="position: absolute; bottom: 1em; right: 1.5em;"}
 [[← back](#char-theorems)]{style="font-size: 0.6em; color: #555;"}
-:::
-
----
-
-## {#app-applications background-color="#0a0a0a"}
-
-::: {style="text-align: center; margin-top: 3%;"}
-[Six settings, six rules]{style="font-size: 1.4em; color: #e8e8e8; font-weight: 300;"}
-:::
-
-<br>
-
-::: {style="max-width: 92%; margin: 0 auto; font-size: 0.82em;"}
-
-| | **Application** | **Rule** | **Why this rule** |
-|:---|:---|:---|:---|
-| [&#9632;]{style="color: #c490f0;"} | Executive screening | PMM | Only the top tier matters |
-| [&#9632;]{style="color: #c490f0;"} | Publications across journal tiers | PLS | Top tier first; among equals, next tier decides |
-| [&#9632;]{style="color: #70d0a0;"} | Fundraising across priority areas | TMM | For the bottom line, only the total matters |
-| [&#9632;]{style="color: #70d0a0;"} | Olympic medal rankings | TLS | Total medals first; among equals, favor better ones |
-| [&#9632;]{style="color: #f0a050;"} | Infection control across risk categories | P-PROT | Breadth of coverage; protect the most critical categories first |
-| [&#9632;]{style="color: #f0a050;"} | Scouting baseball prospects | Q-PROT | Depth of coverage; peak excellence matters most |
-
-: {tbl-colwidths="[3,30,7,40]"}
-
-:::
-
----
-
-## {background-color="#0a0a0a"}
-
-::: {style="text-align: center; margin-top: 3%;"}
-[PMM &mdash; Executive screening]{style="font-size: 1.3em; color: #c490f0; font-weight: 400;"}
-:::
-
-::: {style="text-align: center; margin-top: 0.8em;"}
-[Candidates rated on: &ensp; [Vision]{style="color: #c490f0; font-weight: 500;"} $>_p$ [Operations]{style="color: #c490f0;"} $>_p$ [Communication]{style="color: #c490f0;"}]{style="font-size: 1em; color: #aaa;"}
-:::
-
-::: {style="max-width: 70%; margin: 1.5em auto 0; font-size: 0.95em;"}
-
-| | Vision | Operations | Communication |
-|:---|:---:|:---:|:---:|
-| **Candidate A** | 9 | 3 | 2 |
-| **Candidate B** | 7 | 8 | 8 |
-
-:::
-
-::: {style="text-align: center; margin-top: 1.5em;"}
-[PMM compares only the top coordinate: &ensp; $9 > 7$]{style="font-size: 1.05em; color: #ddd;"}
-
-[&rarr; **Candidate A wins**]{style="font-size: 1.1em; color: #c490f0; font-weight: 500;"}
-:::
-
-::: {style="text-align: center; margin-top: 1.2em;"}
-[B is stronger in every other dimension &mdash; but PMM doesn't care.]{style="font-size: 0.9em; color: #888;"}
-
-[At the shortlisting stage, only strategic vision matters.]{style="font-size: 0.9em; color: #888; font-style: italic;"}
-:::
-
----
-
-## {background-color="#0a0a0a"}
-
-::: {style="text-align: center; margin-top: 3%;"}
-[TMM &mdash; Fundraising across priority areas]{style="font-size: 1.3em; color: #70d0a0; font-weight: 400;"}
-:::
-
-::: {style="text-align: center; margin-top: 0.8em;"}
-[Priority areas: &ensp; [Medicine]{style="color: #70d0a0; font-weight: 500;"} $>_p$ [Engineering]{style="color: #70d0a0;"} $>_p$ [Humanities]{style="color: #70d0a0;"}]{style="font-size: 1em; color: #aaa;"}
-:::
-
-::: {style="max-width: 70%; margin: 1.5em auto 0; font-size: 0.95em;"}
-
-| | Medicine | Engineering | Humanities |
-|:---|:---:|:---:|:---:|
-| **Campaign X** | \$2M | \$0 | \$0 |
-| **Campaign Y** | \$1M | \$1M | \$1M |
-
-:::
-
-::: {style="text-align: center; margin-top: 1.5em;"}
-[TMM compares only totals: &ensp; \$3M $>$ \$2M]{style="font-size: 1.05em; color: #ddd;"}
-
-[&rarr; **Campaign Y wins**]{style="font-size: 1.1em; color: #70d0a0; font-weight: 500;"}
-:::
-
-::: {style="text-align: center; margin-top: 1.2em;"}
-[X concentrates in medicine, but Y raises more overall.]{style="font-size: 0.9em; color: #888;"}
-
-[For the bottom line, only the total matters.]{style="font-size: 0.9em; color: #888; font-style: italic;"}
-:::
-
----
-
-## {background-color="#0a0a0a"}
-
-::: {style="text-align: center; margin-top: 3%;"}
-[Q-PROT &mdash; Scouting baseball prospects]{style="font-size: 1.3em; color: #f0a050; font-weight: 400;"}
-:::
-
-::: {style="text-align: center; margin-top: 0.8em;"}
-[Skills: &ensp; [Hitting]{style="color: #f0a050; font-weight: 500;"} $>_p$ [Fielding]{style="color: #f0a050;"} $>_p$ [Speed]{style="color: #f0a050;"}]{style="font-size: 1em; color: #aaa;"}
-:::
-
-::: {style="max-width: 70%; margin: 1.5em auto 0; font-size: 0.95em;"}
-
-| | Hitting | Fielding | Speed |
-|:---|:---:|:---:|:---:|
-| **Player X** | 2 | 1 | 2 |
-| **Player Y** | 1 | 3 | 0 |
-
-:::
-
-::: {style="text-align: center; margin-top: 1.5em;"}
-[Highest differing threshold: $a^* = 3$. &ensp; $H_3(Y) = \{2\}$ vs $H_3(X) = \emptyset$.]{style="font-size: 1em; color: #ddd;"}
-
-[&rarr; **Player Y wins**]{style="font-size: 1.1em; color: #f0a050; font-weight: 500;"}
-:::
-
-::: {style="text-align: center; margin-top: 1.2em;"}
-[X is well-rounded but has no elite skill. Y has an elite glove.]{style="font-size: 0.9em; color: #888;"}
-
-[Q-PROT rewards peak excellence: the player who clears the highest bar.]{style="font-size: 0.9em; color: #888; font-style: italic;"}
-:::
-
-::: {style="position: absolute; bottom: 1em; right: 1.5em;"}
-[[← back](#applications)]{style="font-size: 0.6em; color: #555;"}
 :::
 
 ---
